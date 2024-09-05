@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Bobotea</title>
+  <link rel="icon" href="img/logo.png" type="image/x-icon">
+
+</head>
+<body class="antialiased">
+  
+    <nav class="bg-black shadow-md fixed top-0 left-0 w-full z-50">
+        <div class="container mx-auto px-4 py-2 flex justify-between items-center ">
+           
+            <div class="hidden md:flex space-x-6">
+                <img src="img/logo.png" alt="logo" class="w-[70px] h-[70px]">
+                <h4 class="text-white text-xl p-5">BOBOTEA</h4>
+                <!-- text-white text-xl -->
+            </div>
+            
+            <div class="flex space-x-6 justify-end">
+                <input type="text" placeholder="Search...." class="px-2 py-1 rounded">
+                <button class="bg-blue-800 text-white px-4 py-1 rounded">Search</button>
+                <ul class="flex items-center space-x-4">
+                    <li class="cursor-pointer hover:text-blue-500 text-white">
+                        <a href="#home" >Home</a>
+                    </li>
+                    <li class="cursor-pointer hover:text-blue-500 text-white">
+                        <a href="#gallery">Gallery</a>
+                    </li>
+                    <li class="cursor-pointer hover:text-blue-500 text-white">
+                        <a href="#services">Services</a>
+                    </li>
+                    <li class="cursor-pointer hover:text-blue-500 text-white">
+                        <a href="#about">About</a>
+                    </li>
+                    
+                    <button class="bg-pink-600 text-white px-4 py-1 rounded hover:red-500">SIGNIN</button>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="home" class="h-screen flex flex-col md:flex-row items-center justify-around bg-gradient-to-r from-indigo-500 via-purple-400 to-pink-400 p-4">
+        <div class="text-center md:text-left">
+            <h1 class="text-3xl md:text-4xl font-bold leading-tight md:leading-[5rem]">Welcome to Boba Tea</h1>
+            <p class="mt-4 max-w-md mx-auto md:mx-0 text-justify tracking-wide leading-loose">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+            </p>
+            <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded cursor-pointer hover:bg-red-800">Get Started</button>
+        </div>
+        
+        <div class="mt-6 md:mt-0">
+            <img src="img/payag.png" alt="Boba Tea" class="w-[300px] md:w-[500px] lg:w-[700px] h-auto">
+        </div>
+    </section>
+    
+   
+    <section id="gallery" class="py-8 md:py-16 h-auto md:h-screen flex items-center justify-center bg-gradient-to-r from-indigo-300 to-pink-300">
+        <div class="p-4 md:p-7">
+            <p class="p-9"></p>
+            <H2 class="text-3xl md:text-4xl font-bold leading-tight md:leading-[5rem] text-center">GALLERY</H2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 text-center">
+                
+                <div class="p-4 md:p-6 bg-white  rounded-lg hover:bg-gray-200">
+                    <div class="mb-4 flex justify-center">
+                        <img src="img/matcha.jpg" alt="Matcha Tea" class="w-[150px] md:w-[170px] h-[150px] md:h-[170px]">
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 md:mb-4">Matcha Tea</h3>
+                </div>
+    
+                <div class="p-4 md:p-6 bg-white  rounded-lg hover:bg-gray-200">
+                    <div class="mb-4 flex justify-center">
+                        <img src="img/choco.jpg" alt="Choco Tea" class="w-[150px] md:w-[170px] h-[150px] md:h-[170px]">
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 md:mb-4">Choco Tea</h3>
+                </div>
+    
+                <div class="p-4 md:p-6 bg-white  rounded-lg hover:bg-gray-200">
+                    <div class="mb-4 flex justify-center">
+                        <img src="img/cheesecake.jpg" alt="Cheesecake Tea" class="w-[150px] md:w-[170px] h-[150px] md:h-[170px]">
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 md:mb-4">Cheesecake Tea</h3>
+                </div>
+    
+                <div class="p-4 md:p-6 bg-white  rounded-lg hover:bg-gray-200">
+                    <div class="mb-4 flex justify-center">
+                        <img src="img/mango.jpg" alt="Mango Tea" class="w-[150px] md:w-[170px] h-[150px] md:h-[170px]">
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 md:mb-4">Mango Tea</h3>
+                </div>
+            </div>
+            <div class="p-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 text-center">
+                
+                <div class="p-4 md:p-6 bg-white  rounded-lg hover:bg-gray-200">
+                    <div class="mb-4 flex justify-center">
+                        <img src="img/matcha.jpg" alt="Matcha Tea" class="w-[150px] md:w-[170px] h-[150px] md:h-[170px]">
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 md:mb-4">Matcha Tea</h3>
+                </div>
+    
+                <div class="p-4 md:p-6 bg-white  rounded-lg hover:bg-gray-200">
+                    <div class="mb-4 flex justify-center">
+                        <img src="img/choco.jpg" alt="Choco Tea" class="w-[150px] md:w-[170px] h-[150px] md:h-[170px]">
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 md:mb-4">Choco Tea</h3>
+                </div>
+    
+                <div class="p-4 md:p-6 bg-white rounded-lg hover:bg-gray-200">
+                    <div class="mb-4 flex justify-center">
+                        <img src="img/cheesecake.jpg" alt="Cheesecake Tea" class="w-[150px] md:w-[170px] h-[150px] md:h-[170px]">
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 md:mb-4">Cheesecake Tea</h3>
+                </div>
+    
+                <div class="p-4 md:p-6 bg-white  rounded-lg hover:bg-gray-200">
+                    <div class="mb-4 flex justify-center">
+                        <img src="img/mango.jpg" alt="Mango Tea" class="w-[150px] md:w-[170px] h-[150px] md:h-[170px]">
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 md:mb-4">Mango Tea</h3>
+                </div>
+
+                
+    
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="services"  class="h-auto md:h-screen flex flex-col md:flex-row items-center justify-around bg-cover bg-center bg-no-repeat" style="background-image: url('img/services.png');">
+        <div class="p-6 rounded-lg">
+            
+            <div class="p-5 grid grid-cols-1 md:grid-cols-3 gap-8 text-center pt-30">
+                <div class="p-6 bg-white shadow-md rounded-lg hover:bg-gray-200">
+                    <div class="text-blue-600 mb-4 justify-center">
+                        
+                        <img src="img/s.png" alt="logo" class="w-[70px] h-[70px]">
+
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Customize Your Bubble Tea</h3>
+                    <p>We’re full service which means we’ve got Choose from a variety of tea bases, flavors, toppings,
+                         and sweetness levels to create your perfect bubble tea.</p>
+                </div>
+
+                <div class="p-6 bg-white shadow-md rounded-lg hover:bg-gray-200">
+                    <div class="text-blue-600 mb-4 ">
+                        
+                        <img src="img/logo.png" alt="logo" class="w-[70px] h-[70px]">
+
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Fast and Fresh Delivery</h3>
+                    <p> Enjoy freshly prepared bubble tea delivered right to your doorstep.
+                         Track your order live with our speedy delivery service.</p>
+                </div>
+
+                <div class="p-6 bg-white shadow-md rounded-lg hover:bg-gray-200">
+                    <div class="text-blue-600 mb-4 ">
+                        
+                        <img src="img/logo.png" alt="logo" class="w-[70px] h-[70px]">
+
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4">Loyalty Rewards Program</h3>
+                    <p>Earn points with every purchase and redeem them for exclusive discounts and free drinks.
+                         Sign up now and get a bonus on your first order!</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="about" class="h-auto md:h-screen flex flex-col md:flex-row items-center justify-around bg-cover bg-center bg-no-repeat p-6 md:p-12" style="background-image: url('img/people.webp');">
+        <div class="text-center md:text-left">
+            <h1 class="text-3xl md:text-4xl font-bold mb-4">ABOUT US</h1>
+            <p class="max-w-sm md:max-w-md mx-auto md:mx-0 text-justify tracking-wide mb-6">
+                We are passionate about creating the perfect milk tea experience. Using only premium tea leaves, fresh ingredients, and innovative flavors, we craft delicious beverages that cater to every taste. Whether you love classic favorites or adventurous blends, we’ve got something for you. Join us and sip on happiness in every cup!
+            </p>
+    
+            <div class="flex flex-col items-center md:items-start gap-2 mb-4">
+                <div class="hover:underline cursor-pointer">
+                    <h6>Facebook</h6>
+                </div>
+                <h6>Call us:</h6>
+                <div class="hover:underline cursor-pointer">
+                    <h6>+639-517-131-996</h6>
+                </div>
+            </div>
+    
+            <div class="flex flex-col items-center md:items-start gap-2">
+                <h6>Message us:</h6>
+                <img src="img/mango.jpg" alt="logo" class="w-[40px] h-[40px]">
+            </div>
+        </div>
+    </section>
+    
+
+    <footer class="bg-gray-800 py-6">
+        <div class="container mx-auto px-6 text-center text-white">
+            <p>&copy; 2024 Teba. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
